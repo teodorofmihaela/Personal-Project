@@ -19,7 +19,7 @@
       &:before {
         content: '<h1>';
         font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
+        color: #00ffb7;
         font-size: 18px;
         position: absolute;
         margin-top: -40px;
@@ -30,12 +30,12 @@
       &:after {
         content: '<h1/>';
         font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
+        color: #00ffb7;
         font-size: 18px;
         position: absolute;
         margin-top: 18px;
         margin-left: 20px;
-        animation: fadeIn 1s 1.7s backwards;
+        animation: fadeIn 1s 3.8s backwards;
         opacity: 0.6;
       }
   
@@ -59,22 +59,22 @@
       animation: fadeIn 1s 1.8s backwards;
     }
   
-    .flat-button {
-      color: #ffd700;
-      font-size: 13px;
+    .contact-link {
+      color: #00ffb7;
+      font-size: 18px;
       font-weight: 400;
       letter-spacing: 4px;
       font-family: sans-serif;
       text-decoration: none;
       padding: 10px 18px;
-      border: 1px solid #ffd700;
+      border-left-style: solid ;
       margin-top: 25px;
       float: left;
-      animation: fadeInAnimation 1s 1.8s backwards;
+      animation: fadeIn 1s 1.8s backwards;
       white-space: nowrap;
   
       &:hover {
-        background: #ffd700;
+        background: #00ffb7;
         color: #333;
       }
     }
@@ -102,7 +102,7 @@
       h1 {
         font-size: 53px;
         font-family: 'Coolvetica';
-        color: #ffd700;
+        color: #00ffb7;
         font-weight: 400;
         margin-top: 0;
         position: relative;
@@ -112,7 +112,7 @@
         &:before {
           content: '<h1>';
           font-family: 'La Belle Aurore', cursive;
-          color: #ffd700;
+          color: #00ffb7;
           font-size: 18px;
           position: absolute;
           margin-top: -10px;
@@ -124,7 +124,7 @@
         &:after {
           content: '<h1/>';
           font-family: 'La Belle Aurore', cursive;
-          color: #ffd700;
+          color: #00ffb7;
           font-size: 18px;
           line-height: 18px;
           position: absolute;
