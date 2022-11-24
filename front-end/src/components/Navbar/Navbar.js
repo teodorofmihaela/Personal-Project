@@ -1,6 +1,6 @@
 import './Navbar.scss'
 import { Link, NavLink } from 'react-router-dom'
-import Logo from '../../assets/images/Logo5.png'
+import Logo from '../../assets/images/LogoM.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faHome, faUser, faEnvelope, faPhone, faSuitcase, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
@@ -17,13 +17,13 @@ const Navbar = () => {
                 <NavLink exact="true" activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
                 </NavLink>
-                <NavLink activeclassname="active" className="get-toknow-me" to="/">
+                <NavLink activeclassname="active" className="get-toknow-me" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
                 </NavLink>
-                <NavLink activeclassname="active" className="portfolio" to="/">
+                <NavLink activeclassname="active" className="portfolio" to="/portofolio">
                 <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
                 </NavLink>
-                <NavLink activeclassname="active" className="contact" to="/">
+                <NavLink activeclassname="active" className="contact" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>
                 </nav>

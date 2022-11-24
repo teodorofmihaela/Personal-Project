@@ -1,27 +1,51 @@
 import { useEffect, useState } from 'react'
 import { Link } from "react-router-dom"
+import Logo from '../../assets/images/LogoInitial.png'
 import './Home.scss'
-
+import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 
 const Home = () =>{
 
     const [letterClass, setLetterClass] = useState('text-animate')
 
-    const name= "Mihaela"
-    const job='web developer'
+    const name= "ihaela Teodorof"
+    const job='Web Developer'
 
     const nameArray=name.split("");
     const jobArray=job.split("");
 
+    useEffect(() => {
+        return setTimeout(() => {
+          setLetterClass('text-animate-hover')
+        }, 4000)
+      }, [])
 
     return(
         <>
         <div className="container home">
             <div className="text-zone">
-                <h1>Hi, <br/> I'm
-                </h1>
-                <h2>Frontend Developer</h2>
-                <Link to='/contact' className="contact"> Contact Me</Link>
+                <h1>
+                <span className={letterClass}>H</span>
+            <span className={`${letterClass} _12`}>i,</span>
+            <br />
+            <span className={`${letterClass} _13`}>I</span>
+            <span className={`${letterClass} _14`}>'m</span>                
+            <img src={Logo} alt='logo' style={{width:"70px", heigh:"70px"}}/>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={nameArray}
+              idx={15}
+            />
+            <br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArray}
+              idx={22}
+            />
+            </h1>
+                
+                <h2>Full-Stack Developer / Designer</h2>
+                <Link to='/contact' className="contact-link"> Contact Me</Link>
             </div>
         </div>
         </>
