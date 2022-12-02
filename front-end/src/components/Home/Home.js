@@ -44,7 +44,7 @@ const Home = () =>{
             />
             </h1>
                 
-                <h2>Full-Stack Developer / Designer</h2>
+                <h2>Full-Stack Developer</h2>
                 <Link to='/contact' className="contact-link"> Contact Me</Link>
             </div>
         </div>
