@@ -7,8 +7,9 @@ const Layout = () => {
     return (
         <>
         <div className='App'>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className='page'>
+            <span className='top-html tag'>&lt;html&gt;</span>
             <span className='top-body tag'>&lt;body&gt;</span>
             <Home/>
             <span className="bottom-body tag">

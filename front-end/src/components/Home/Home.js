@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom"
 import Logo from '../../assets/images/LogoInitial.png'
 import './Home.scss'
@@ -22,7 +22,7 @@ const Home = () =>{
 
     return(
         <>
-        <div className="container home">
+        <div id="home" className="container home">
             <div className="text-zone">
                 <h1>
                 <span className={letterClass}>H</span>
@@ -45,7 +45,9 @@ const Home = () =>{
             </h1>
                 
                 <h2>Full-Stack Developer</h2>
-                <Link to='/contact' className="contact-link"> Contact Me</Link>
+                <a href='https://www.linkedin.com/in/mihaelateodorof/' 
+                target={"_blank"} rel="noreferrer" className="contact-link">Contact Me</a>
+                {/* <Link to='/contact' className="contact-link"> Contact Me</Link> */}
             </div>
         </div>
         </>

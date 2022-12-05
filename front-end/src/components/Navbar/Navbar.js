@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faHome, faUser, faEnvelope, faPhone, faSuitcase, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 
+
 const Navbar = () => {
 
     return (
@@ -27,6 +28,7 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>
                 </nav>
+
 
                 <ul>
                     <li>
