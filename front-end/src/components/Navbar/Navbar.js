@@ -1,4 +1,5 @@
 import './Navbar.scss'
+import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import Logo from '../../assets/images/LogoM.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

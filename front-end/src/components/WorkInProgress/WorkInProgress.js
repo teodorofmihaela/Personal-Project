@@ -1,3 +1,4 @@
+import React from 'react'
 import SVG from '../../assets/images/work_in_progress.svg'
 import Loader from 'react-loaders'
 import './WorkInProgress.scss'

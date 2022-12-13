@@ -1,3 +1,4 @@
+import React from 'react';
 import Loader from 'react-loaders'
 import Home from '../Home/Home.js';
 import Navbar from '../Navbar/Navbar.js';
